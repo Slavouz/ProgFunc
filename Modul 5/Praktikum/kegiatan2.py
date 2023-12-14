@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import numpy as np
 
 data_transaksi = [
     ("Produk A", 50, 10),
