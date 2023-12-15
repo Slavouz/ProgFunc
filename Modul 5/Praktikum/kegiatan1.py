@@ -8,7 +8,7 @@ nilai_mahasiswa = [75, 80, 90, 65, 70, 85, 95, 78, 88, 92]
 avg_nilai = reduce(lambda x, y: x + y, nilai_mahasiswa) / len(nilai_mahasiswa)
 
 # TODO 2: Membuat label mahasiswa (sumbu x) dalam bentuk fungsional dinamis (list-map-lambda)
-data_mahasiswa = [i for i in range(1,10)]
+data_mahasiswa = [i for i in range(1,11)]
 pointX = list(map(lambda i: data_mahasiswa[i], range(len(data_mahasiswa))))
 
 # TODO 3: Visualisasi data dalam bentuk diagram batang
